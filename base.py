@@ -177,7 +177,7 @@ if __name__ == '__main__':
         Categorical([True], name='learn_emb'),
         Categorical([True], name='classify_pertp'),
         Categorical(['activity'], name='dataset'),
-        Real(0, 7, name='aug_ratio'),
+        Real(0, 3, name='aug_ratio'),
         Integer(50, 500, name='augh1'),
         Integer(128, 512, name='augh2')
     ]
