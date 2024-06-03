@@ -160,5 +160,7 @@ if __name__ == '__main__':
                 #args.dec + '_' + 
                 str(experiment_id) +
                 '.h5')
+        if best_val_loss * 1.5 < val_loss:
+            break
     print(best_val_loss)
     print(total_time)
